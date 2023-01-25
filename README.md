@@ -16,7 +16,7 @@ Docker es una plataforma de código abierto que sus funcionalidades son de aisla
 la gráfica de la diferencia entre un contenedor de docker y una máquina virtual sería:
 
 
-![funcionamiento docker](https://github.com/velezz/docker/images/docker1.png)
+![funcionamiento docker](https://github.com/velezz/docker/blob/main/images/docker1.png)
 
 ### ¿Porqué virtualizar con docker? 
 
@@ -66,7 +66,7 @@ Antes de comenzar a caminar podemos correr un poco lo proximo que haremos será 
 
 esto descargará una imagen llamada hello-world, creará un contenedor y lo correra de forma automatica, en la imagen de abajo podremos ver el resultado que arroja
 
-![hello world](https://github.com/velezz/docker/images/docker2.png)
+![hello world](https://github.com/velezz/docker/blob/main/images/docker2.png)
 
 ### buscar una imagen
 
@@ -80,20 +80,20 @@ en este caso buscaremos una imagen de ubuntu si bien les parece
 
 y tan sencillo como es nos apareceran los resultados en forma de lista con nombre y descripción de la imagen
 
-![docker search ubuntu](https://github.com/velezz/docker/images/docker3.png)
+![docker search ubuntu](https://github.com/velezz/docker/blob/main/images/docker3.png)
 
 ahora si viene la descarga, al haber escogido alguna de las imagenes para descargar podremos hacerlo sin mas ni menos tan sencillo como ejecutar
 
     docker pull ubuntu
 
-![docker pull ubuntu](https://github.com/velezz/docker/images/docker4.png)
+![docker pull ubuntu](https://github.com/velezz/docker/blob/main/images/docker4.png)
 
 que? que como sabremos si realmente se descargo la imagen?
 simplemente solo escribimos en la consola 
 
     docker images
 
-![docker images](https://github.com/velezz/docker/images/docker5.png)
+![docker images](https://github.com/velezz/docker/blob/main/images/docker5.png)
 
 es facil aprender docker verdad? si vemos bien la lista veremos la imagen de ubuntu que acabamos de descarga y también la imagen de hello world que descargamos anteriormente
 
@@ -110,7 +110,7 @@ Para realizar este paso solo es cuestión de ejecutar
 si, de seguro te estas preguntando ¿De dondé salio el -it? si lo ejecuté anteriormente y blah blah blah
 no, -it es un flag (por llamarlo así) y es la abreviatura de iteractive tty (una terminal interactiva) lo cuál podrán ver, al ejecutar el comando nos cambio de usuario y nombre del equipo
 
-![docker run -it ubuntu](https://github.com/velezz/docker/images/docker6.png)
+![docker run -it ubuntu](https://github.com/velezz/docker/blob/main/images/docker6.png)
 
 como pueden ven en la imagen anterior ahora somos root@9870dfd6c811 lo cuál es el usuario administrador y el id del contenedor creado
 varios estarán como ¿que hago, como salgo, entro a otra terminal para poder seguir trabajando en mi maquina?
